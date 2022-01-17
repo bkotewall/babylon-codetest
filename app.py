@@ -47,3 +47,6 @@ def check_response(url):
     web_response = dict()
     web_response[url]=request_time
     return jsonify(web_response)
+
+if __name__ == '__main__':
+    app.run()
